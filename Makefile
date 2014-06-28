@@ -2,11 +2,11 @@ CC = gcc
 FLG = -O4
 NAME = StockMarket 
 
-ergasia: StockMarket.o
+StockMarket: StockMarket.o
 
 	$(CC) $(FLG) StockMarket.o -lpthread -o $(NAME)
 
-ergasia.o: StockMarket.c StockMarket.h
+StockMarket.o: StockMarket.c StockMarket.h
 
 	$(CC) StockMarket.c -c -lpthread
 
