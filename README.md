@@ -15,4 +15,4 @@ Just run 'make' command in a unix-based system and the simulation begins!
 
 Output
 ------
-Info messages in stdout. Results are saved in files.
+Info messages in stdout. Results are saved to files.
